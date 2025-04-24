@@ -1,18 +1,15 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# System files
+.DS_Store
+Thumbs.db
 
-# Other files and folders
-.settings/
+# Editor settings
+.vscode/
+.idea/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Log and temporary files
+*.log
+*.tmp
+*.bak
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Optional: ignore sensitive config if you separate API key later
+config.js
